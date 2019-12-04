@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9296de76e468214498b6cce2cfe95148, type: 3}
+  m_Name: Default_GameSettings_Profile
+  m_EditorClassIdentifier: 
+  attackAngle: 90
+  maxAttackPower: 5
+  attackPowerScaler: 130
+  boundsRadius: 3
+  pigDetectionRadius: 8
+  aimReticuleClamps: {x: 2, y: 8}
+  maxPullDistance: 8
+  chickenPrefab: {fileID: 4553571869265370127, guid: 543f03fbc4a910c4b818e77796c08b35,
+    type: 3}
+  pigPrefabs:
+  - {fileID: 1641087943636413894, guid: a1845cf31a0cb88478120426f115c2d3, type: 3}
+  pigAmount: {x: 2, y: 4}
+  wolfPrefabs:
+  - {fileID: 5361530199289520759, guid: 2cbc609556363d24d850f46b0d8886d2, type: 3}
+  - {fileID: 6194017264146728658, guid: c6577b980308c7e42a0a5165a775d7be, type: 3}
+  wolfAmount: {x: 4, y: 6}
+  levelRadius: 20
+  trailParticlesPrefab: {fileID: 5810443015003337974, guid: 88a6678edf036cf4e8cc21e7651dc492,
+    type: 3}
+  explosionParticlesPrefab: {fileID: 1762269459380719645, guid: 8bcb8686441944c43981322e02fc1922,
+    type: 3}
+  parryParticlesPrefab: {fileID: 5830983775689838934, guid: 730fe6c0d0b820a499f3d6cd70fb24eb,
+    type: 3}
+  powerUpParticlePrefab: {fileID: 5781854190181160695, guid: 9e6a16e0be391b840a1113b73a1f343f,
+    type: 3}
+  powerUpSound: {fileID: 8300000, guid: 8000d6b3a010ac9468c6cb5f9d093109, type: 3}
+  parrySound: {fileID: 8300000, guid: 72ce48d39350995408c633c2a181369f, type: 3}
+  clickSound: {fileID: 8300000, guid: ad2e50e34da55264095bb511323c6127, type: 3}
+  gameOverWinSound: {fileID: 8300000, guid: f27df747d4915e14ca05d125fd2a9c85, type: 3}
+  gameOverLoseSound: {fileID: 8300000, guid: 0c18ce2854b06714eb42a5646948b39a, type: 3}
+  bountyTallySound: {fileID: 8300000, guid: 90d062ab4fb7bec40bd6984458e767cf, type: 3}
