@@ -78,7 +78,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if(player != null)
+            if(player != null && canInteract)
                 if (player.isControllable)
                 {
                     if (AimHandler != null) StopCoroutine(AimHandler);
